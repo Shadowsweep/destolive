@@ -8,6 +8,8 @@ const config: Config = {
   ],
   theme: {
     extend: {
+
+      
       colors:{
         'destolive': '#88B5FF',
         'destolive-dark': '#4D81CB'
