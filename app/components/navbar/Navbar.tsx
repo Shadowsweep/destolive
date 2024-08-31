@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import SearchFilters from './SearchFilters'
 
 const Navbar = () => {
   return (
@@ -13,10 +14,17 @@ const Navbar = () => {
                <Image 
                 src="/destolive.png"
                 alt ="Django logo"
-                width={200}
-                height={58}
+                width={150}
+                height={38}
                  />
                </Link>
+
+               <div className="flex space-x-6">
+                   <SearchFilters />
+               </div>
+               <div className='flex items-center space-x-6' >
+                    Add property - User nav
+               </div>
             </div>
       </div>
       </nav>
