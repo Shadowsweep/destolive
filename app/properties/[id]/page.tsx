@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import ReservationSidedbar from '@/app/components/properties/ReservationSidedbar'
+import PropertyList from '@/app/components/properties/PropertyList'
+
 
 const PropertyDetailPage = () => {
   return (

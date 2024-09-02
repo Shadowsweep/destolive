@@ -29,7 +29,7 @@ const ReservationSidedbar = () => {
 
            <div className='mt-4 flex justify-between align-center font-bold' >
             <p>Total</p>
-            {/* <p>Rs. 12120</p> */}
+            <p>Rs. 12120</p>
            </div>
 
         </aside>
